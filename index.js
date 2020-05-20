@@ -12,5 +12,21 @@
 
 class Stack {
 
+    constructor() {
+        this.data = []
+    }
+
+    push(record) {
+        this.data.push(record)
+        // .push() adding elements to the end of the array
+    }
+
+    pop() {
+        return this.data.pop()
+    }
+
+    peek() {
+        return this.data[this.data.length - 1]
+    }
     
 }
