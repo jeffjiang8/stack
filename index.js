@@ -9,3 +9,8 @@
 //   s.push(2);
 //   s.pop(); // returns 2
 //   s.pop(); // returns 1
+
+class Stack {
+
+    
+}
